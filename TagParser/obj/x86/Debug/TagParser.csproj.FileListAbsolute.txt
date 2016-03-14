@@ -1,8 +1,0 @@
-C:\Документы\Projects\Тестовые задания\TagParser\TagParser\obj\x86\Debug\TagParser.Form1.resources
-C:\Документы\Projects\Тестовые задания\TagParser\TagParser\obj\x86\Debug\TagParser.Properties.Resources.resources
-C:\Документы\Projects\Тестовые задания\TagParser\TagParser\obj\x86\Debug\TagParser.csproj.GenerateResource.Cache
-C:\Документы\Projects\Тестовые задания\TagParser\TagParser\bin\Debug\TagParser.exe
-C:\Документы\Projects\Тестовые задания\TagParser\TagParser\bin\Debug\TagParser.pdb
-C:\Документы\Projects\Тестовые задания\TagParser\TagParser\obj\x86\Debug\TagParser.exe
-C:\Документы\Projects\Тестовые задания\TagParser\TagParser\obj\x86\Debug\TagParser.pdb
-C:\Документы\Projects\Тестовые задания\TagParser\TagParser\obj\x86\Debug\TagParser.csprojResolveAssemblyReference.cache
