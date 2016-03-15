@@ -5,3 +5,4 @@ C:\Документы\Projects\Тестовые задания\TagParser\TagPars
 C:\Документы\Projects\Тестовые задания\TagParser\TagParser\bin\Debug\TagParser.pdb
 C:\Документы\Projects\Тестовые задания\TagParser\TagParser\obj\x86\Debug\TagParser.exe
 C:\Документы\Projects\Тестовые задания\TagParser\TagParser\obj\x86\Debug\TagParser.pdb
+C:\Документы\Projects\Тестовые задания\TagParser\TagParser\obj\x86\Debug\TagParser.csprojResolveAssemblyReference.cache
