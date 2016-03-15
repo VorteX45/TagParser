@@ -23,6 +23,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;
 using System.Xml;
+using System.Xml.Linq;
 
 namespace TagParser
 {
@@ -78,6 +79,26 @@ namespace TagParser
                 tagDateList.Add(outputReader.ReadLine().Substring(8, 24));
                 outputReader.ReadToEnd();
             }
+
+            //конвертируем в XML
+            //XmlDocument document = new XmlDocument();
+            XDocument document = new XDocument();
+            XElement root = new XElement("root");
+            document.Add(root);
+            for (int i = 0; i < tagList.Count; i++)
+            {
+                root.Add(new XElement("tag",
+                    new XAttribute("name", tagList[i]),
+                    new XAttribute("date", tagDateList[i])));
+            }
+
+            //сохранение
+            SaveFileDialog saveFileDialog = new SaveFileDialog();
+            saveFileDialog.Filter = "Xml документ|*.xml|Все файлы|*.*";
+            saveFileDialog.Title = "Сохранение XML файла";
+            saveFileDialog.ShowDialog();
+            if(saveFileDialog.FileName != "")
+                document.Save(saveFileDialog.FileName);
 
             //временная папка больше не нужна
             foreach (string file in Directory.GetFiles(TEMP_FOLDER_PATH, "*", SearchOption.AllDirectories))
